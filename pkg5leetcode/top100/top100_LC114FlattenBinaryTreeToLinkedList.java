@@ -6,6 +6,8 @@ package pkg5leetcode.top100;
  * COMPLEXITY: Time O(n), Space O(1)
  */
 public class top100_LC114FlattenBinaryTreeToLinkedList {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

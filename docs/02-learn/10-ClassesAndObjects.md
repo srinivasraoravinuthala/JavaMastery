@@ -78,5 +78,5 @@ class Person {
 3. Create two students and call methods on each.
 
 **Next →** [11 Constructors & Encapsulation](11-ConstructorsAndEncapsulation.md)
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 

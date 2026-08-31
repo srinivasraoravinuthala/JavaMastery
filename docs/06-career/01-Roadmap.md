@@ -57,6 +57,14 @@ Beginner ──► Intermediate ──► Senior ──► Tech Lead ──► A
 - **Serialization:** Jackson, JAXB, YAML, Protobuf, Avro.
 - **Build:** Maven lifecycle, multi-module, BOM; Gradle basics.
 
+## Portfolio projects (ship these)
+
+- [ ] [Console Gradebook](../../projects/01-console-gradebook/README.md) (after ch.09)
+- [ ] [Library OOP](../../projects/02-library-oop/README.md) (after ch.15)
+- [ ] [Todo REST](../../projects/03-todo-rest/README.md) (after ch.31)
+- [ ] [Notes API — Spring Boot](../../projects/04-notes-api/README.md) (after ch.40)
+- [ ] [Notes Web — HTML + API](../../projects/05-notes-web/README.md) (after ch.41)
+
 ## Skill Checklist (tick as you master)
 - [ ] Can implement every DSA structure from memory.
 - [ ] Can explain GC algorithms and choose one for a workload.
@@ -70,4 +78,5 @@ Beginner ──► Intermediate ──► Senior ──► Tech Lead ──► A
 - [ ] Can implement resilience patterns (circuit breaker, retry) by hand.
 - [ ] Can choose serialization format and use Jackson for JSON in production code.
 - [ ] Can build and structure Maven multi-module projects.
+- [ ] Can run a Spring Boot service and call it from a browser UI.
 - [ ] Can answer 1000+ interview questions confidently.

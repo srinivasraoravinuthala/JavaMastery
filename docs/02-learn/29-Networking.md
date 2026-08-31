@@ -33,9 +33,9 @@ System.out.println(response.body());
 
 Async: `client.sendAsync(request, handler).thenApply(...)`
 
-** →** [Networking.md](../04-reference/05-Networking.md)
+**Related →** [Networking.md](../04-reference/05-Networking.md)
 
-** →** [10 Java 9→21 Features](../03-interview/10-Java9To21Features.md)
+**Related →** [10 Java 9→21 Features](../03-interview/10-Java9To21Features.md)
 
 
-** →** [30 JDBC](30-JDBC.md)
+**Next →** [30 JDBC](30-JDBC.md)

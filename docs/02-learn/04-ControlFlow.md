@@ -89,5 +89,5 @@ Works beautifully with **sealed types** — compiler checks exhaustiveness.
 3. Add a `default` case — when is it required?
 
 **Next →** [05 Loops](05-Loops.md)
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 

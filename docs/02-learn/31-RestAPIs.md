@@ -25,11 +25,11 @@ This package shows:
 3. JSON handling
 4. Client consumption with `HttpClient`
 
-**Milestone project:** File config · JDBC database · REST endpoint · call with HttpClient.
+**Milestone project:** File config · JDBC database · REST endpoint · call with HttpClient — scaffolded as [Project 03 Todo REST](../../projects/03-todo-rest/README.md).
 
-** →** [RestApis.md](../04-reference/07-RestApis.md)
+**Related →** [RestApis.md](../04-reference/07-RestApis.md)
 
-** →** [15 Spring Boot](../03-interview/15-SpringBoot.md)
+**Related →** [15 Spring Boot](../03-interview/15-SpringBoot.md)
 
 
-** →** [32 Standard Libraries](32-StandardLibraries.md)
+**Next →** [32 Standard Libraries](32-StandardLibraries.md)

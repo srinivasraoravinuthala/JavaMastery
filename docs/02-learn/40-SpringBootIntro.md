@@ -1,8 +1,8 @@
 # 40 — Spring Boot Intro
 
-**Previous:** [39 Resilience Patterns](39-ResiliencePatterns.md)
+**Previous:** [39 Resilience Patterns](39-ResiliencePatterns.md) · **Next:** [41 REST & Frontend](41-RestAndFrontend.md)
 
-▶️ See [15 Spring Boot Interview](../03-interview/15-SpringBoot.md) for 80+ Q&A
+▶️ [`pkg21spring`](../../pkg21spring/README.md) · Lab: [Project 04 Notes API](../../projects/04-notes-api/README.md)
 
 ---
 
@@ -20,20 +20,36 @@ Spring Boot is the **opinionated** way to build production Java apps — auto-co
 
 ---
 
-## Minimal REST controller (conceptual)
+## File-by-file in `pkg21spring`
+
+| File | Role |
+|------|------|
+| `NotesApplication.java` | Entry point |
+| `Note.java` | JPA `@Entity` |
+| `NoteRepository.java` | `JpaRepository` |
+| `NoteController.java` | `/api/notes` CRUD + CORS |
+| `application.properties` | H2 in-memory DB |
+
+```bash
+cd pkg21spring
+mvn spring-boot:run
+curl http://localhost:8080/api/notes
+```
+
+---
+
+## Minimal REST controller
 
 ```java
 @RestController
-@RequestMapping("/api/users")
-public class UserController {
-    private final UserService service;
+@RequestMapping("/api/notes")
+public class NoteController {
+    private final NoteRepository repo;
 
-    public UserController(UserService service) { this.service = service; }
+    public NoteController(NoteRepository repo) { this.repo = repo; }
 
-    @GetMapping("/{id}")
-    public User get(@PathVariable Long id) {
-        return service.findById(id);
-    }
+    @GetMapping
+    public List<Note> all() { return repo.findAll(); }
 }
 ```
 
@@ -41,15 +57,13 @@ public class UserController {
 
 ## Learning path for Spring
 
-1. Solid **OOP + JDBC + REST** (chapters 10–31) — you have runnable examples
-2. Read [15 Spring Boot Interview](../03-interview/15-SpringBoot.md) — 80+ questions with answers
-3. Build a small project: Spring Initializr → REST + JPA + H2
-4. Official docs: [spring.io/guides](https://spring.io/guides)
+1. Solid **OOP + JDBC + REST** (chapters 10–31)
+2. Run **`pkg21spring`** (this chapter)
+3. Read [15 Spring Boot Interview](../03-interview/15-SpringBoot.md)
+4. Add a browser UI in [ch.41](41-RestAndFrontend.md)
 
-> No dedicated `pkg21spring` yet — use Spring Initializr for hands-on labs. Interview content covers DI, Boot auto-config, Actuator, and testing.
+**Next →** [41 REST & Frontend](41-RestAndFrontend.md)
 
 **Full interview topic →** [15 Spring Boot](../03-interview/15-SpringBoot.md)
 
 **Career guide →** [06-career/02-InterviewGuide.md](../06-career/02-InterviewGuide.md)
-
-**Back to index →** [00-INDEX](00-INDEX.md)

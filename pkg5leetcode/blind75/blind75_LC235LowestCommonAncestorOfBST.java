@@ -6,6 +6,8 @@ package pkg5leetcode.blind75;
  * COMPLEXITY: Time O(h), Space O(1)
  */
 public class blind75_LC235LowestCommonAncestorOfBST {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

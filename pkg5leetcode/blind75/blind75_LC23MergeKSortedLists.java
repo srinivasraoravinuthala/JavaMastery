@@ -8,6 +8,8 @@ package pkg5leetcode.blind75;
 import java.util.*;
 
 public class blind75_LC23MergeKSortedLists {
+    /** Same shape as pkg5leetcode/common/ListNode.java (nested for single-file runs). */
+
     static class ListNode {
         int val;
         ListNode next;

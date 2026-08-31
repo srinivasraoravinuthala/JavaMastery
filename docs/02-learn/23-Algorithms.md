@@ -48,5 +48,5 @@ Always state **time** and **space** complexity in interviews.
 | Subarray sum / window | Sliding window |
 
 **Next →** [24 LeetCode](24-LeetCode.md)
-** →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+**Related →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
 

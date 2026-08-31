@@ -6,6 +6,8 @@ package pkg5leetcode.official75;
  * COMPLEXITY: Time O(h), Space O(1)
  */
 public class official75_LC700SearchInABinarySearchTree {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

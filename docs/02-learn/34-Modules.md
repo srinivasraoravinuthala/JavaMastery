@@ -33,9 +33,9 @@ ServiceLoader.load(Encoder.class)
 
 See `pkg15modules/spi-demo/` for a working example.
 
-** →** [Modules.md](../04-reference/10-Modules.md)
+**Related →** [Modules.md](../04-reference/10-Modules.md)
 
-** →** [10 Java 9→21 Features](../03-interview/10-Java9To21Features.md)
+**Related →** [10 Java 9→21 Features](../03-interview/10-Java9To21Features.md)
 
 
-** →** [35 Serialization](35-Serialization.md)
+**Next →** [35 Serialization](35-Serialization.md)

@@ -8,6 +8,8 @@ package pkg5leetcode.official75;
 import java.util.*;
 
 public class official75_LC872LeafSimilarTrees {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

@@ -122,5 +122,5 @@ When in doubt, **use parentheses**.
 3. Write a ternary that picks the larger of two ints.
 
 **Next →** [04 Control Flow](04-ControlFlow.md)
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 

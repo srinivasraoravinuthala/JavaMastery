@@ -6,6 +6,8 @@ package pkg5leetcode.blind75;
  * COMPLEXITY: Time O(n), Space O(1)
  */
 public class blind75_LC19RemoveNthNodeFromEnd {
+    /** Same shape as pkg5leetcode/common/ListNode.java (nested for single-file runs). */
+
     static class ListNode {
         int val;
         ListNode next;

@@ -96,5 +96,5 @@ static long factorial(int n) {
 3. Write recursive `fibonacci(n)` and trace `fib(5)` on paper.
 
 **Next →** [07 Arrays](07-Arrays.md)
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 

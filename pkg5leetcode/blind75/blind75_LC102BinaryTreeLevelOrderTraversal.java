@@ -8,6 +8,8 @@ package pkg5leetcode.blind75;
 import java.util.*;
 
 public class blind75_LC102BinaryTreeLevelOrderTraversal {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

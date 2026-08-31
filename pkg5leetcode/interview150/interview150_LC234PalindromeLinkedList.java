@@ -6,6 +6,8 @@ package pkg5leetcode.interview150;
  * COMPLEXITY: Time O(n), Space O(1)
  */
 public class interview150_LC234PalindromeLinkedList {
+    /** Same shape as pkg5leetcode/common/ListNode.java (nested for single-file runs). */
+
     static class ListNode {
         int val;
         ListNode next;

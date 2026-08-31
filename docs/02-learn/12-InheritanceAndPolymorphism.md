@@ -70,9 +70,9 @@ a.speak();               // prints "Woof!" · runtime dispatch
 Bad: `class Stack extends ArrayList`  
 Good: `class Stack { private Deque<T> data; }`
 
-** →** [03-interview/02-OopAndSolid.md](../03-interview/02-OopAndSolid.md)
+**Related →** [03-interview/02-OopAndSolid.md](../03-interview/02-OopAndSolid.md)
 
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 
 
-** →** [13 Abstraction & Interfaces](13-AbstractionAndInterfaces.md)
+**Next →** [13 Abstraction & Interfaces](13-AbstractionAndInterfaces.md)

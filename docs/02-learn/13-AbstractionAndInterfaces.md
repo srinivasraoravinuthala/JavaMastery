@@ -69,5 +69,5 @@ class Button implements Drawable, Clickable, Serializable { ... }
 Java supports **multiple inheritance of type** through interfaces.
 
 **Next →** [14 Static & Enums](14-StaticAndEnums.md)
-** →** [01 Core Java](../03-interview/01-CoreJava.md)
+**Related →** [01 Core Java](../03-interview/01-CoreJava.md)
 

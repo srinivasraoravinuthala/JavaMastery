@@ -38,9 +38,9 @@ void findUser_notFound_returnsEmpty() {
 }
 ```
 
-** →** [Testing.md](../04-reference/09-Testing.md)
+**Related →** [Testing.md](../04-reference/09-Testing.md)
 
-** →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+**Related →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
 
 
-** →** [34 Modules](34-Modules.md)
+**Next →** [34 Modules](34-Modules.md)

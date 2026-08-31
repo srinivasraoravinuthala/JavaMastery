@@ -8,6 +8,8 @@ package pkg5leetcode.interview150;
 import java.util.*;
 
 public class interview150_LC173BinarySearchTreeIterator {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

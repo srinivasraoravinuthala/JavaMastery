@@ -55,5 +55,5 @@ Need connected components?    → Union-Find
 Implement a **LRU cache** using `LinkedHashMap` (access-order) or combine HashMap + doubly linked list.
 
 **Next →** [23 Algorithms](23-Algorithms.md)
-** →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+**Related →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
 

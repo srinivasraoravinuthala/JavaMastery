@@ -29,9 +29,9 @@ User back = mapper.readValue(json, User.class);
 
 ▶️ **Never deserialize untrusted Java native serialization** · remote code execution risk.
 
-** →** [Serialization.md](../04-reference/12-Serialization.md)
+**Related →** [Serialization.md](../04-reference/12-Serialization.md)
 
-** →** [11 I/O & Serialization](../03-interview/11-IOAndSerialization.md)
+**Related →** [11 I/O & Serialization](../03-interview/11-IOAndSerialization.md)
 
 
-** →** [36 Performance & Build](36-PerformanceAndBuild.md)
+**Next →** [36 Performance & Build](36-PerformanceAndBuild.md)

@@ -6,6 +6,8 @@ package pkg5leetcode.blind75;
  * COMPLEXITY: Time O(n), Space O(h)
  */
 public class blind75_LC100SameTree {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

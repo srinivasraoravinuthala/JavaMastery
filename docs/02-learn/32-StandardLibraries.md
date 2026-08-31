@@ -42,11 +42,11 @@ BigDecimal total = price.multiply(BigDecimal.valueOf(3))
                         .setScale(2, RoundingMode.HALF_UP);
 ```
 
-** →** [Libraries.md](../04-reference/08-Libraries.md)
+**Related →** [Libraries.md](../04-reference/08-Libraries.md)
 
 **Milestone:** You completed **Applied Java** (chapters 28→32). ▶️
 
-** →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+**Related →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
 
 
-** →** [33 Testing](33-Testing.md)
+**Next →** [33 Testing](33-Testing.md)

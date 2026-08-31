@@ -6,6 +6,8 @@ package pkg5leetcode.official75;
  * COMPLEXITY: Time O(h), Space O(h)
  */
 public class official75_LC450DeleteNodeInABST {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

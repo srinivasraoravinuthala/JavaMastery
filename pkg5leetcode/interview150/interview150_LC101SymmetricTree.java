@@ -6,6 +6,8 @@ package pkg5leetcode.interview150;
  * COMPLEXITY: Time O(n), Space O(h)
  */
 public class interview150_LC101SymmetricTree {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

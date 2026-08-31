@@ -6,6 +6,8 @@ package pkg5leetcode.top100;
  * COMPLEXITY: Time O(n log n), Space O(log n)
  */
 public class top100_LC148SortList {
+    /** Same shape as pkg5leetcode/common/ListNode.java (nested for single-file runs). */
+
     static class ListNode {
         int val;
         ListNode next;

@@ -6,6 +6,8 @@ package pkg5leetcode.top100;
  * COMPLEXITY: Time O(log^2 n), Space O(log n)
  */
 public class top100_LC222CountCompleteTreeNodes {
+    /** Same shape as pkg5leetcode/common/TreeNode.java (nested for single-file runs). */
+
     static class TreeNode {
         int val;
         TreeNode left, right;

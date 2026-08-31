@@ -82,7 +82,7 @@
 | [31](31-RestAPIs.md) | REST APIs | `pkg12restapi` |
 | [32](32-StandardLibraries.md) | Std Libraries | `pkg13libs` |
 
-## Chapters 33–40 — Professional
+## Chapters 33–41 — Professional & full-stack
 
 | Ch | Title | Code |
 |----|-------|------|
@@ -93,7 +93,14 @@
 | [37](37-InterviewPrep.md) | Interview Prep | `03-interview/` |
 | [38](38-Metaprogramming.md) | Metaprogramming | `pkg17metaprogramming` |
 | [39](39-ResiliencePatterns.md) | Resilience Patterns | `pkg18resiliencepatterns` |
-| [40](40-SpringBootIntro.md) | Spring Boot Intro | *(interview + external labs)* |
+| [40](40-SpringBootIntro.md) | Spring Boot Intro | `pkg21spring` |
+| [41](41-RestAndFrontend.md) | REST & Frontend | `projects/05-notes-web` |
+
+---
+
+## Projects (hands-on labs)
+
+See [07-projects/00-INDEX.md](../07-projects/00-INDEX.md) for the full ladder (gradebook → library → todo REST → Spring notes → browser UI).
 
 ---
 
@@ -106,7 +113,7 @@
 | `pkg2versions` | 21 | Java 5→21 features |
 | `pkg3datastructures` | 22 | DS implementations |
 | `pkg4algorithms` | 23 | Sorting, searching, graphs |
-| `pkg5leetcode` | 24 | LeetCode study plans |
+| `pkg5leetcode` | 24 | LeetCode study plans (+ `common/` helpers) |
 | `pkg6jvm` | 25 | JVM, memory, GC |
 | `pkg7concurrency` | 26 | Threads, executors |
 | `pkg16advconcurrency` | 26 | JMM, advanced concurrency |
@@ -115,6 +122,7 @@
 | `pkg17metaprogramming` | 38 | Annotations, proxies, reflection |
 | `pkg18resiliencepatterns` | 39 | Circuit breaker, retry, bulkhead |
 | `pkg19performance`–`pkg20serialization` | 35–36 | Performance, serialization |
+| `pkg21spring` | 40–41 | Spring Boot notes API |
 
 ---
 
@@ -130,6 +138,7 @@
 | 32 | Build file/HTTP/DB-backed apps |
 | 37 | Pass senior Java interviews |
 | 40 | Build Spring Boot services with resilience patterns |
+| 41 | Connect a browser UI to your Java API |
 
 **Quick ref →** [05-quick-ref/00-INDEX.md](../05-quick-ref/00-INDEX.md)
 

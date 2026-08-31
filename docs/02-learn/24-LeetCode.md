@@ -33,6 +33,24 @@ java pkg5leetcode/blind75/blind75_LC1TwoSum.java
 
 ---
 
+## Shared helpers (learn once → reuse)
+
+Linked-list and tree problems all need the same node types. Study them once in [`pkg5leetcode/common/`](../../pkg5leetcode/common/README.md):
+
+| Type | File |
+|------|------|
+| `ListNode` | `pkg5leetcode/common/ListNode.java` |
+| `TreeNode` | `pkg5leetcode/common/TreeNode.java` |
+
+```bash
+javac pkg5leetcode/common/ListNode.java pkg5leetcode/blind75/blind75_LC206ReverseLinkedList.java
+java -cp "pkg5leetcode/common;pkg5leetcode/blind75" blind75_LC206ReverseLinkedList
+```
+
+Problem files may still nest a copy of the type so `java SomeFile.java` works alone — the **shape** matches `common/`. Prefer compiling against helpers when practicing for interviews.
+
+---
+
 ## 14 patterns to master
 
 1. Hashing · 2. Two pointers · 3. Sliding window · 4. Binary search  
@@ -40,9 +58,9 @@ java pkg5leetcode/blind75/blind75_LC1TwoSum.java
 9. Heap · 10. Backtracking · 11. DP · 12. Greedy  
 13. Intervals · 14. Bit manipulation
 
-** →** [LeetCode.md](../04-reference/14-LeetCode.md)
+**Related →** [LeetCode.md](../04-reference/14-LeetCode.md)
 
-** →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+**Related →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
 
 
-** →** [25 JVM & Memory](25-JVMAndMemory.md)
+**Next →** [25 JVM & Memory](25-JVMAndMemory.md)
