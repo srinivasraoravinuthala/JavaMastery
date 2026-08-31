@@ -12,17 +12,13 @@ on:
 jobs:
   dispatch:
     runs-on: ubuntu-latest
+    # Skip when dispatch token is not configured (use repo variable ENABLE_UI_DISPATCH=true when ready)
+    if: vars.ENABLE_UI_DISPATCH == 'true'
     steps:
       - name: Trigger JavaMastery-UI rebuild
-        if: ${{ secrets.UI_REPO_DISPATCH_TOKEN != '' }}
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.UI_REPO_DISPATCH_TOKEN }}
           repository: srinivasraoravinuthala/JavaMastery-UI
           event-type: content-updated
           client-payload: '{"ref": "${{ github.sha }}", "repo": "JavaMastery"}'
-
-      - name: Dispatch token not configured
-        if: ${{ secrets.UI_REPO_DISPATCH_TOKEN == '' }}
-        run: |
-          echo "::notice::Set UI_REPO_DISPATCH_TOKEN (PAT with repo scope on JavaMastery-UI) to auto-trigger site rebuilds."
