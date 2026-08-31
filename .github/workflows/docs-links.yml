@@ -29,5 +29,11 @@ jobs:
       - run: npm ci
         working-directory: JavaMastery-UI
 
-      - run: npm run validate-links -- ../docs
+      - name: Validate docs links
         working-directory: JavaMastery-UI
+        run: |
+          if npm run | grep -qE '^\s+validate-links\b'; then
+            npm run validate-links -- ../docs
+          else
+            node scripts/validate-links.js ../docs
+          fi
