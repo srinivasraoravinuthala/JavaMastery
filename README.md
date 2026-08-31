@@ -6,22 +6,7 @@
 |---|---|
 | **Language** | Java 21 (JDK 25 compatible) |
 | **Run code** | `java pkg1core/core1HelloWorld.java` |
-| **Website** | [javamastery.srinivasrao.co.in](https://javamastery.srinivasrao.co.in) |
-| **UI repo** | [JavaMastery-UI](https://github.com/srinivasraoravinuthala/JavaMastery-UI) |
-| **All documentation** | [docs/00-INDEX.md](docs/00-INDEX.md) |
-
----
-
-## Branch strategy
-
-| Branch | Purpose |
-|--------|---------|
-| **`main`** | Production content — synced into the live website on rebuild |
-| **`develop`** | Work in progress — merge to `main` to publish doc changes |
-
-After merging doc changes to `main`, the website rebuilds automatically if [auto-rebuild](.github/workflows/trigger-ui-rebuild.yml) is configured (requires `UI_REPO_DISPATCH_TOKEN` secret). Otherwise trigger a manual deploy in [JavaMastery-UI](https://github.com/srinivasraoravinuthala/JavaMastery-UI).
-
-**Contributing docs:** Use numbered filenames in links (e.g. `07-Exceptions.md`). See [link conventions in docs/00-INDEX.md](docs/00-INDEX.md).
+| **All documentation** | Everything below — or [docs/00-INDEX.md](docs/00-INDEX.md) for the same map inside `docs/` |
 
 ---
 

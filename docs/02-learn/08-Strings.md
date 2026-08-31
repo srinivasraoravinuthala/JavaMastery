@@ -85,6 +85,6 @@ String msg = String.format("Hello, %s! Score: %d", name, score);
 String msg2 = "Score: %d".formatted(score);   // Java 15+
 ```
 
-**Deep dive →** [09 Strings & Performance](../03-interview/09-StringsAndPerformance.md)
+**Deep dive →** [StringsAndPerformance.md](../03-interview/StringsAndPerformance.md)
 
 **Next →** [09 User Input](09-UserInput.md)

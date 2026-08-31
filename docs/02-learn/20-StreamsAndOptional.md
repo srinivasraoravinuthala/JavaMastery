@@ -59,6 +59,6 @@ findUser(42)
 
 **Milestone:** You completed **Core APIs** (chapters 16–20). 🎉
 
-**Interview drill →** [06 Streams](../03-interview/06-Streams.md)
+**Interview drill →** [Streams.md](../03-interview/Streams.md)
 
 **Next →** [21 Java Versions](21-JavaVersions.md)

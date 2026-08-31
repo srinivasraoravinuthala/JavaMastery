@@ -117,6 +117,4 @@ Read the full picture in [01-orientation/01-TutorialAndHistory.md](../01-orienta
 
 ---
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [02 Variables & Types](02-VariablesAndTypes.md)

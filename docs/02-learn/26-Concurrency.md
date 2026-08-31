@@ -60,6 +60,6 @@ Millions of cheap threads for **blocking I/O**. Don't pool them like platform th
 7. `concurrency7` Virtual threads
 8. `concurrency8` Locks
 
-**Deep dive →** [MemoryModel.md](../04-reference/11-MemoryModel.md) · [04 Concurrency](../03-interview/04-Concurrency.md)
+**Deep dive →** [MemoryModel.md](../04-reference/11-MemoryModel.md) · [Concurrency.md](../03-interview/Concurrency.md)
 
 **Next →** [27 Design Patterns](27-DesignPatterns.md)

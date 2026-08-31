@@ -111,6 +111,4 @@ Use sparingly — often a method extraction is clearer.
 2. Print multiplication table 1–10 with nested for loops.
 3. Sum array elements with for-each.
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [06 Methods](06-Methods.md)

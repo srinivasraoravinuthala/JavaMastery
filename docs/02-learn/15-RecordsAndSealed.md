@@ -67,6 +67,4 @@ Modern Java algebraic data types — model closed sets of variants (expressions,
 
 **Milestone:** You completed **OOP** (chapters 10–15). 🎉
 
-**Interview drill →** [02 OOP & SOLID](../03-interview/02-OopAndSolid.md)
-
 **Next →** [16 Exceptions](16-Exceptions.md)

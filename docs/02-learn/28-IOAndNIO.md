@@ -50,6 +50,6 @@ try (var in = Files.newInputStream(path)) {
 | 5 | `io5Serialization` | Object ↔ bytes |
 | 6 | `io6TryWithResourcesAndScanner` | Auto-close, parsing |
 
-**Full guide →** [IO.md](../04-reference/04-IO.md) · [11 I/O & Serialization](../03-interview/11-IOAndSerialization.md)
+**Full guide →** [IO.md](../04-reference/04-IO.md) · [IOAndSerialization.md](../03-interview/IOAndSerialization.md)
 
 **Next →** [29 Networking](29-Networking.md)

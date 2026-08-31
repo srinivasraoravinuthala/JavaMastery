@@ -29,6 +29,4 @@ This package shows:
 
 **Full guide →** [RestApis.md](../04-reference/07-RestApis.md)
 
-**Interview drill →** [15 Spring Boot](../03-interview/15-SpringBoot.md)
-
 **Next →** [32 Standard Libraries](32-StandardLibraries.md)

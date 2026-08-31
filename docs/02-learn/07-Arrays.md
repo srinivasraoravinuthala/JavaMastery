@@ -73,6 +73,4 @@ for (int v : a) sum += v;
 
 ▶️ Dynamic array implementation: `java pkg3datastructures/datastructures0DynamicArray.java`
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [08 Strings](08-Strings.md)

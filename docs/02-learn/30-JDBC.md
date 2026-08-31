@@ -41,6 +41,6 @@ DriverManager.getConnection(url, user, pass)
 | 4 | `jdbc4BatchProcessing` | Batch inserts |
 | 5 | `jdbc5ConnectionPooling` | Pool concepts |
 
-**Full guide →** [JDBC.md](../04-reference/06-JDBC.md) · [16 JDBC / JPA](../03-interview/16-JdbcJpaHibernate.md)
+**Full guide →** [JDBC.md](../04-reference/06-JDBC.md) · [JdbcJpaHibernate.md](../03-interview/JdbcJpaHibernate.md)
 
 **Next →** [31 REST APIs](31-RestAPIs.md)

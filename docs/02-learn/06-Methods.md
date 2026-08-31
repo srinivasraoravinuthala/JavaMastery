@@ -95,6 +95,4 @@ static long factorial(int n) {
 2. Write an overloaded `max` for `int` and `double`.
 3. Write recursive `fibonacci(n)` and trace `fib(5)` on paper.
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [07 Arrays](07-Arrays.md)
