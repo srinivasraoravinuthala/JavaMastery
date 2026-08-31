@@ -42,4 +42,6 @@ java pkg5leetcode/blind75/blind75_LC1TwoSum.java
 
 **Full index →** [LeetCode.md](../04-reference/14-LeetCode.md)
 
+**Interview drill →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+
 **Next →** [25 JVM & Memory](25-JVMAndMemory.md)

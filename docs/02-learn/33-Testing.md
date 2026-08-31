@@ -40,4 +40,6 @@ void findUser_notFound_returnsEmpty() {
 
 **Full guide →** [Testing.md](../04-reference/09-Testing.md)
 
+**Interview drill →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+
 **Next →** [34 Modules](34-Modules.md)

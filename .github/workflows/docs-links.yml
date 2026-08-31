@@ -1,0 +1,33 @@
+name: Docs Links
+
+on:
+  push:
+    branches: [main, develop]
+    paths: ['docs/**']
+  pull_request:
+    branches: [main, develop]
+    paths: ['docs/**']
+
+jobs:
+  validate-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout JavaMastery-UI
+        uses: actions/checkout@v4
+        with:
+          repository: srinivasraoravinuthala/JavaMastery-UI
+          path: JavaMastery-UI
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: JavaMastery-UI/package-lock.json
+
+      - run: npm ci
+        working-directory: JavaMastery-UI
+
+      - run: npm run validate-links -- ../docs
+        working-directory: JavaMastery-UI

@@ -6,35 +6,49 @@ Format: **detailed** questions have Short / Detailed / Example; the **rapid-fire
 
 ## Detailed Questions
 
+<a id="q1"></a>
+
 ### 1. What is the difference between JDK, JRE, and JVM?
 - **Short:** JVM runs bytecode; JRE = JVM + libraries; JDK = JRE + dev tools.
 - **Detailed:** The **JVM** is the abstract machine that loads/verifies/executes `.class` bytecode and manages memory/GC. The **JRE** packages the JVM with the standard class library so you can *run* programs. The **JDK** adds development tools (`javac`, `jar`, `javadoc`, `jshell`) so you can *build* programs.
 - **Example:** `javac App.java` (JDK) produces `App.class`, which `java App` (JRE/JVM) executes.
+
+<a id="q2"></a>
 
 ### 2. Why is Java "platform independent"?
 - **Short:** Compiles to bytecode that any JVM can run.
 - **Detailed:** Source compiles once to platform-neutral bytecode; each OS has its own JVM that interprets/JITs that bytecode. "Write once, run anywhere." The JVM itself is platform-dependent.
 - **Example:** The same `App.class` runs on Windows, Linux, and macOS JVMs.
 
+<a id="q3"></a>
+
 ### 3. `==` vs `.equals()`?
 - **Short:** `==` compares references/primitives; `equals` compares logical value.
 - **Detailed:** For objects `==` checks identity (same reference). `equals` is overridable for value equality; if you override `equals` you must override `hashCode`. Watch the Integer cache (-128..127).
 - **Example:** `new String("a") == new String("a")` is `false`, but `.equals` is `true`.
+
+<a id="q4"></a>
 
 ### 4. What is the contract between `equals` and `hashCode`?
 - **Short:** Equal objects must have equal hash codes.
 - **Detailed:** If `a.equals(b)` then `a.hashCode() == b.hashCode()`. The reverse is not required (collisions allowed). Breaking this corrupts hash-based collections (`HashMap`, `HashSet`).
 - **Example:** Use `Objects.hash(field1, field2)` consistently with the fields used in `equals`.
 
+<a id="q5"></a>
+
 ### 5. Why are Strings immutable?
 - **Short:** Safety, caching (string pool), thread-safety, and hashcode caching.
 - **Detailed:** Immutability allows the string pool to share literals safely, makes Strings safe to use as map keys, enables hashcode caching, and avoids accidental mutation across references (security: file paths, class loading).
 - **Example:** `s.toUpperCase()` returns a new String; `s` is unchanged.
 
+<a id="q6"></a>
+
 ### 6. `String` vs `StringBuilder` vs `StringBuffer`?
 - **Short:** String immutable; StringBuilder mutable (not thread-safe, fast); StringBuffer mutable (synchronized).
 - **Detailed:** Concatenating Strings in a loop creates many objects (O(n²)). Use `StringBuilder` for single-threaded building, `StringBuffer` only if multiple threads mutate the same buffer.
 - **Example:** `StringBuilder sb=new StringBuilder(); for(...) sb.append(x);`
+
+<a id="q7"></a>
 
 ### 7. What is autoboxing and a common pitfall?
 - **Short:** Auto conversion primitive↔wrapper; pitfall is the Integer cache and NPE on unboxing null.
@@ -291,52 +305,7 @@ Format: **detailed** questions have Short / Detailed / Example; the **rapid-fire
 149. What is `strictfp`? → Portable floating-point (mostly obsolete).
 150. What is `volatile`? → Visibility guarantee across threads.
 151. What is `synchronized`? → Mutual exclusion + visibility via monitor.
-152. Difference process vs thread? → Process isolated memory; threads share heap.
-153. Daemon thread? → Background thread; doesn't block JVM exit.
-154. Thread states? → NEW, RUNNABLE, BLOCKED, WAITING, TIMED_WAITING, TERMINATED.
-155. `wait` vs `sleep`? → wait releases lock; sleep doesn't.
-156. Why wait/notify in synchronized? → They require holding the monitor.
-157. Deadlock? → Two threads each holding a lock the other needs.
-158. Race condition? → Outcome depends on timing of unsynchronized access.
-159. What is happens-before? → Ordering/visibility guarantee.
-160. Atomic classes? → Lock-free thread-safe ops via CAS.
-161. What is CAS? → Compare-And-Swap atomic primitive.
-162. Executor vs Thread? → Pools reuse threads; better resource control.
-163. Callable vs Runnable? → Callable returns a value/throws checked.
-164. Future? → Handle to async result.
-165. CompletableFuture? → Composable async pipelines.
-166. Virtual thread? → Lightweight JVM-scheduled thread (Java 21).
-167. When not virtual threads? → CPU-bound; synchronized pinning.
-168. ForkJoinPool? → Work-stealing divide-and-conquer pool.
-169. ConcurrentHashMap vs Hashtable? → Segment/bucket-level concurrency vs whole-map lock.
-170. CopyOnWriteArrayList? → Snapshot-on-write; read-heavy.
-171. BlockingQueue? → Thread-safe producer/consumer buffer.
-172. What is starvation? → Thread never gets CPU/lock.
-173. What is livelock? → Threads keep reacting, no progress.
-174. What is a lock fairness? → Ordered acquisition vs throughput.
-175. ReentrantLock vs synchronized? → Lock adds tryLock, fairness, interruptible, multiple conditions.
-176. ReadWriteLock? → Many readers or one writer.
-177. Semaphore? → Permit-based concurrency limit.
-178. CountDownLatch vs CyclicBarrier? → One-shot countdown vs reusable barrier.
-179. What is false sharing? → Cache-line contention between unrelated fields.
-180. What is the `this` escape problem? → Publishing `this` before construction finishes.
-181. Difference HashMap vs TreeMap? → Hash O(1) unordered vs sorted O(log n).
-182. LinkedHashMap use? → Insertion/access order (LRU cache).
-183. How does HashMap handle collisions? → Chaining; treeify after threshold (8).
-184. Load factor default? → 0.75.
-185. Initial capacity? → 16 (power of two).
-186. fail-fast vs fail-safe? → CME vs snapshot iteration.
-187. Comparable in TreeSet null? → Throws NPE on null element.
-188. PriorityQueue order? → Min-heap by default.
-189. Deque uses? → Stack and queue.
-190. Stack class status? → Legacy; prefer ArrayDeque.
-191. Vector status? → Legacy synchronized; prefer ArrayList/Collections.synchronizedList.
-192. Iterator.remove? → Safe removal during iteration.
-193. Streams vs loops? → Declarative vs imperative; measure for perf.
-194. Are streams reusable? → No, single-use.
-195. Lazy evaluation in streams? → Intermediate ops are lazy.
-196. parallelStream caution? → Shared ForkJoinPool; measure; avoid stateful ops.
-197. Collectors.toMap duplicate keys? → Throws unless merge function provided.
-198. flatMap purpose? → Flatten nested structures.
-199. reduce vs collect? → Immutable fold vs mutable reduction.
-200. What makes good Java code? → Clear naming, small methods, immutability, proper exceptions, tests, and idiomatic APIs.
+
+> **More rapid-fire:** [04 Concurrency](../03-interview/04-Concurrency.md) · [03 Collections](../03-interview/03-Collections.md) · [06 Streams](../03-interview/06-Streams.md)
+
+152. What makes good Java code? → Clear naming, small methods, immutability, proper exceptions, tests, and idiomatic APIs.

@@ -35,4 +35,6 @@ See `pkg15modules/spi-demo/` for a working example.
 
 **Full guide →** [Modules.md](../04-reference/10-Modules.md)
 
+**Interview drill →** [10 Java 9–21 Features](../03-interview/10-Java9To21Features.md)
+
 **Next →** [35 Serialization](35-Serialization.md)

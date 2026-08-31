@@ -47,4 +47,6 @@ Always state **time** and **space** complexity in interviews.
 | Top K elements | Heap |
 | Subarray sum / window | Sliding window |
 
+**Interview drill →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+
 **Next →** [24 LeetCode](24-LeetCode.md)

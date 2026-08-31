@@ -61,4 +61,6 @@ Combine everything from Part 1:
 
 **Milestone:** You completed **Java Basics** (chapters 01–09). 🎉
 
+**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
+
 **Next →** [10 Classes & Objects](10-ClassesAndObjects.md)

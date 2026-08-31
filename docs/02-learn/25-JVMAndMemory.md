@@ -46,6 +46,6 @@ Loading → Linking (Verify, Prepare, Resolve) → Initialization
 
 Delegation: Bootstrap → Platform → Application classloader.
 
-**Deep dive →** [04-reference/02-JVMInternals.md](../04-reference/02-JVMInternals.md) · [03-interview/05-JVM.md](../03-interview/05-JVM.md) · [05-quick-ref/02-JavaNotes.md](../../05-quick-ref/02-JavaNotes.md)
+**Deep dive →** [04-reference/02-JVMInternals.md](../04-reference/02-JVMInternals.md) · [03-interview/05-JVM.md](../03-interview/05-JVM.md) · [05-quick-ref/02-JavaNotes.md](../05-quick-ref/02-JavaNotes.md)
 
 **Next →** [26 Concurrency](26-Concurrency.md)
