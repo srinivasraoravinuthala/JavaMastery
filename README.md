@@ -223,7 +223,7 @@ Pure-Java packages (`pkg0`–`pkg13`, `pkg15`–`pkg19`) are self-contained. Mav
 | Ecosystem (testing, modules, Maven) | ✅ Complete | `pkg14`–`pkg20`, `build/` |
 | Interview Q&A | ✅ ~1,500 questions | 19 topics in `docs/03-interview/` |
 | LeetCode 75 | ✅ 75/75 | `pkg5leetcode/official75/` |
-| Top Interview 150 | ⚠️ ~137/150 | `blind75` + `interview150` — ~13 problems may still be missing |
+| Top Interview 150 | ✅ ~150/150 | `blind75` + `interview150` |
 | Shared `ListNode` / `TreeNode` helpers | ⬜ Optional | Duplicated per LeetCode file today |
 | Radix / bucket sort | ⬜ Optional | Extra sorting algorithms |
 | Bellman-Ford / Floyd-Warshall | ⬜ Optional | Extra graph algorithms |

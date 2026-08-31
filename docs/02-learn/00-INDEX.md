@@ -82,7 +82,7 @@
 | [31](31-RestAPIs.md) | REST APIs | `pkg12restapi` |
 | [32](32-StandardLibraries.md) | Std Libraries | `pkg13libs` |
 
-## Chapters 33–37 — Professional
+## Chapters 33–40 — Professional
 
 | Ch | Title | Code |
 |----|-------|------|
@@ -91,6 +91,30 @@
 | [35](35-Serialization.md) | Serialization | `pkg20serialization` |
 | [36](36-PerformanceAndBuild.md) | Performance & Build | `pkg19`, `build/` |
 | [37](37-InterviewPrep.md) | Interview Prep | `03-interview/` |
+| [38](38-Metaprogramming.md) | Metaprogramming | `pkg17metaprogramming` |
+| [39](39-ResiliencePatterns.md) | Resilience Patterns | `pkg18resiliencepatterns` |
+| [40](40-SpringBootIntro.md) | Spring Boot Intro | *(interview + external labs)* |
+
+---
+
+## Package map (learn path)
+
+| Package | Chapters | Topics |
+|---------|----------|--------|
+| `pkg0intro` | 01 | Hello World, setup |
+| `pkg1core` | 01–15 | Core language & OOP |
+| `pkg2versions` | 21 | Java 5→21 features |
+| `pkg3datastructures` | 22 | DS implementations |
+| `pkg4algorithms` | 23 | Sorting, searching, graphs |
+| `pkg5leetcode` | 24 | LeetCode study plans |
+| `pkg6jvm` | 25 | JVM, memory, GC |
+| `pkg7concurrency` | 26 | Threads, executors |
+| `pkg16advconcurrency` | 26 | JMM, advanced concurrency |
+| `pkg8patterns` | 27 | Design patterns |
+| `pkg9io`–`pkg15modules` | 28–34 | I/O, networking, JDBC, REST, libs, testing, modules |
+| `pkg17metaprogramming` | 38 | Annotations, proxies, reflection |
+| `pkg18resiliencepatterns` | 39 | Circuit breaker, retry, bulkhead |
+| `pkg19performance`–`pkg20serialization` | 35–36 | Performance, serialization |
 
 ---
 
@@ -105,6 +129,7 @@
 | 27 | Explain JVM, threads, patterns |
 | 32 | Build file/HTTP/DB-backed apps |
 | 37 | Pass senior Java interviews |
+| 40 | Build Spring Boot services with resilience patterns |
 
 **Quick ref →** [05-quick-ref/00-INDEX.md](../05-quick-ref/00-INDEX.md)
 

@@ -2,7 +2,7 @@
 
 **Previous:** [14 Static & Enums](14-StaticAndEnums.md) · **Next:** [16 Exceptions](16-Exceptions.md)
 
-▶️ `core16RecordsDemo` · `core17SealedClassesDemo`
+▶️ `java pkg1core/core16RecordsDemo.java` · `java pkg1core/core17SealedClassesDemo.java`
 
 ---
 
@@ -68,5 +68,5 @@ Modern Java algebraic data types — model closed sets of variants (expressions,
 **Milestone:** You completed **OOP** (chapters 10–15). 🎉
 
 **Next →** [16 Exceptions](16-Exceptions.md)
-**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+** →** [01 Core Java](../03-interview/01-CoreJava.md)
 

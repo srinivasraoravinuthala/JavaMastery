@@ -112,5 +112,5 @@ Use sparingly — often a method extraction is clearer.
 3. Sum array elements with for-each.
 
 **Next →** [06 Methods](06-Methods.md)
-**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+** →** [01 Core Java](../03-interview/01-CoreJava.md)
 

@@ -2,7 +2,7 @@
 
 **Previous:** [19 Lambdas & Functional](19-LambdasAndFunctional.md) · **Next:** [21 Java Versions](21-JavaVersions.md)
 
-▶️ `core22StreamsDemo` · `core23OptionalDemo`
+▶️ `java pkg1core/core22StreamsDemo.java` · `java pkg1core/core23OptionalDemo.java`
 
 ---
 

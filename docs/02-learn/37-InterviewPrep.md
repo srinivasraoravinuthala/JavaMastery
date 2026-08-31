@@ -66,4 +66,6 @@ Now consolidate for interviews.
 
 **Congratulations — you have a complete Java learning path.** 🎉
 
+**Next:** [38 Metaprogramming](38-Metaprogramming.md) · [39 Resilience Patterns](39-ResiliencePatterns.md) · [40 Spring Boot Intro](40-SpringBootIntro.md)
+
 Return to [00 Index](00-INDEX.md) anytime.

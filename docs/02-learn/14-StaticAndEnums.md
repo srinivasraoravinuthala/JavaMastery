@@ -2,7 +2,7 @@
 
 **Previous:** [13 Abstraction & Interfaces](13-AbstractionAndInterfaces.md) · **Next:** [15 Records & Sealed](15-RecordsAndSealed.md)
 
-▶️ `core27StaticMembersDemo` · `core15EnumsDemo`
+▶️ `java pkg1core/core27StaticMembersDemo.java` · `java pkg1core/core15EnumsDemo.java`
 
 ---
 
@@ -75,5 +75,5 @@ enum Planet {
 💡 **Best singleton in Java:** `enum Instance { INSTANCE; }`
 
 **Next →** [15 Records & Sealed](15-RecordsAndSealed.md)
-**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+** →** [01 Core Java](../03-interview/01-CoreJava.md)
 

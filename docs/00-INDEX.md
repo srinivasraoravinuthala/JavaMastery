@@ -11,8 +11,8 @@ docs/
 ├── 00-INDEX.md              ← YOU ARE HERE (master index)
 │
 ├── 01-orientation/          Step 0 — What is Java? How to navigate this project
-├── 02-learn/                Steps 1–37 — Tutorials: basics → advanced (READ IN ORDER)
-├── 03-interview/            Interview Q&A bank (~1,500 questions)
+├── 02-learn/                Steps 1–40 — Tutorials: basics → advanced (READ IN ORDER)
+├── 03-interview/            Interview Q&A bank (~1,500 questions, 19 topics)
 ├── 04-reference/            Deep-dive topic guides (use after matching learn chapter)
 ├── 05-quick-ref/            Cheatsheet & one-page revision
 └── 06-career/               Roadmap & interview strategy

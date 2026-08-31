@@ -2,7 +2,7 @@
 
 **Previous:** [10 Classes & Objects](10-ClassesAndObjects.md) · **Next:** [12 Inheritance & Polymorphism](12-InheritanceAndPolymorphism.md)
 
-▶️ `core26ConstructorsDemo` · `core10Encapsulation`
+▶️ `java pkg1core/core26ConstructorsDemo.java` · `java pkg1core/core10Encapsulation.java`
 
 ---
 
@@ -83,5 +83,5 @@ record Point(int x, int y) {}   // compiler-generated immutable class
 ```
 
 **Next →** [12 Inheritance & Polymorphism](12-InheritanceAndPolymorphism.md)
-**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+** →** [01 Core Java](../03-interview/01-CoreJava.md)
 

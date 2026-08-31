@@ -2,7 +2,7 @@
 
 **Previous:** [12 Inheritance & Polymorphism](12-InheritanceAndPolymorphism.md) · **Next:** [14 Static & Enums](14-StaticAndEnums.md)
 
-▶️ `core13AbstractionDemo` · `core14InterfacesDemo`
+▶️ `java pkg1core/core13AbstractionDemo.java` · `java pkg1core/core14InterfacesDemo.java`
 
 ---
 
@@ -69,5 +69,5 @@ class Button implements Drawable, Clickable, Serializable { ... }
 Java supports **multiple inheritance of type** through interfaces.
 
 **Next →** [14 Static & Enums](14-StaticAndEnums.md)
-**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+** →** [01 Core Java](../03-interview/01-CoreJava.md)
 

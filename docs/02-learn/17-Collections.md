@@ -2,7 +2,7 @@
 
 **Previous:** [16 Exceptions](16-Exceptions.md) · **Next:** [18 Generics](18-Generics.md)
 
-▶️ `core19CollectionsDemo` · `core28ComparatorDemo`
+▶️ `java pkg1core/core19CollectionsDemo.java` · `java pkg1core/core28ComparatorDemo.java`
 
 ---
 

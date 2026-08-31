@@ -1,6 +1,6 @@
-# 24 � LeetCode Practice
+# 24 → LeetCode Practice
 
-**Previous:** [23 Algorithms](23-Algorithms.md) � **Next:** [25 JVM & Memory](25-JVMAndMemory.md)
+**Previous:** [23 Algorithms](23-Algorithms.md) → **Next:** [25 JVM & Memory](25-JVMAndMemory.md)
 
 ▶️ `pkg5leetcode/` · **249 solutions**
 
@@ -40,9 +40,9 @@ java pkg5leetcode/blind75/blind75_LC1TwoSum.java
 9. Heap · 10. Backtracking · 11. DP · 12. Greedy  
 13. Intervals · 14. Bit manipulation
 
-**Full index ?** [LeetCode.md](../04-reference/14-LeetCode.md)
+** →** [LeetCode.md](../04-reference/14-LeetCode.md)
 
-**Interview drill ?** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
+** →** [17 Print Puzzles](../03-interview/17-PrintPuzzles.md)
 
 
-**Next ?** [25 JVM & Memory](25-JVMAndMemory.md)
+** →** [25 JVM & Memory](25-JVMAndMemory.md)

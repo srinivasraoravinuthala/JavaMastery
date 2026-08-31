@@ -1,6 +1,6 @@
-# 32 � Standard Libraries
+# 32 → Standard Libraries
 
-**Previous:** [31 REST APIs](31-RestAPIs.md) � **Next:** [33 Testing](33-Testing.md)
+**Previous:** [31 REST APIs](31-RestAPIs.md) → **Next:** [33 Testing](33-Testing.md)
 
 ▶️ `pkg13libs/libs1DateTimeApi.java` · `libs8Logging.java`
 
@@ -42,11 +42,11 @@ BigDecimal total = price.multiply(BigDecimal.valueOf(3))
                         .setScale(2, RoundingMode.HALF_UP);
 ```
 
-**Full guide ?** [Libraries.md](../04-reference/08-Libraries.md)
+** →** [Libraries.md](../04-reference/08-Libraries.md)
 
-**Milestone:** You completed **Applied Java** (chapters 28�32). ??
+**Milestone:** You completed **Applied Java** (chapters 28→32). ▶️
 
-**Interview drill ?** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+** →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
 
 
-**Next ?** [33 Testing](33-Testing.md)
+** →** [33 Testing](33-Testing.md)
