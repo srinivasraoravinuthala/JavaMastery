@@ -1,8 +1,8 @@
-# 34 ó Modules & SPI
+# 34 ÔøΩ Modules & SPI
 
-**Previous:** [33 Testing](33-Testing.md) ∑ **Next:** [35 Serialization](35-Serialization.md)
+**Previous:** [33 Testing](33-Testing.md) ÔøΩ **Next:** [35 Serialization](35-Serialization.md)
 
-?? `pkg15modules/modules1JpmsConcepts.java` ∑ `modules2ServiceLoaderSpi`
+‚ñ∂Ô∏è `pkg15modules/modules1JpmsConcepts.java` ¬∑ `modules2ServiceLoaderSpi`
 
 ---
 
@@ -27,7 +27,7 @@ module com.myapp {
 Define interface in one module, implementations in others, discover at runtime:
 
 ```
-META-INF/services/com.example.Encoder  ? lists impl classes
+META-INF/services/com.example.Encoder ¬∑ lists impl classes
 ServiceLoader.load(Encoder.class)
 ```
 
@@ -35,7 +35,7 @@ See `pkg15modules/spi-demo/` for a working example.
 
 **Full guide ?** [Modules.md](../04-reference/10-Modules.md)
 
-**Interview drill ?** [10 Java 9ñ21 Features](../03-interview/10-Java9To21Features.md)
+**Interview drill ?** [10 Java 9ÔøΩ21 Features](../03-interview/10-Java9To21Features.md)
 
 
 **Next ?** [35 Serialization](35-Serialization.md)

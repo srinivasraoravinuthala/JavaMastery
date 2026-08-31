@@ -1,8 +1,8 @@
-# 35 ó Serialization & Data Formats
+# 35 ÔøΩ Serialization & Data Formats
 
-**Previous:** [34 Modules](34-Modules.md) ∑ **Next:** [36 Performance & Build](36-PerformanceAndBuild.md)
+**Previous:** [34 Modules](34-Modules.md) ÔøΩ **Next:** [36 Performance & Build](36-PerformanceAndBuild.md)
 
-?? `mvn test -f pkg20serialization/pom.xml`
+‚ñ∂Ô∏è `mvn test -f pkg20serialization/pom.xml`
 
 ---
 
@@ -27,7 +27,7 @@ String json = mapper.writeValueAsString(user);
 User back = mapper.readValue(json, User.class);
 ```
 
-?? **Never deserialize untrusted Java native serialization** ó remote code execution risk.
+?? **Never deserialize untrusted Java native serialization** ¬∑ remote code execution risk.
 
 **Full guide ?** [Serialization.md](../04-reference/12-Serialization.md)
 

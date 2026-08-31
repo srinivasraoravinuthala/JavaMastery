@@ -1,8 +1,8 @@
-# 33 ó Testing
+# 33 ÔøΩ Testing
 
-**Previous:** [32 Standard Libraries](32-StandardLibraries.md) ∑ **Next:** [34 Modules](34-Modules.md)
+**Previous:** [32 Standard Libraries](32-StandardLibraries.md) ÔøΩ **Next:** [34 Modules](34-Modules.md)
 
-?? `mvn test -f pkg14testing/pom.xml`
+‚ñ∂Ô∏è `mvn test -f pkg14testing/pom.xml`
 
 ---
 

@@ -1,12 +1,12 @@
-# 12 ó Inheritance & Polymorphism
+# 12 ÔøΩ Inheritance & Polymorphism
 
-**Previous:** [11 Constructors & Encapsulation](11-ConstructorsAndEncapsulation.md) ∑ **Next:** [13 Abstraction & Interfaces](13-AbstractionAndInterfaces.md)
+**Previous:** [11 Constructors & Encapsulation](11-ConstructorsAndEncapsulation.md) ÔøΩ **Next:** [13 Abstraction & Interfaces](13-AbstractionAndInterfaces.md)
 
-?? `core11Inheritance` ∑ `core12Polymorphism`
+‚ñ∂Ô∏è `core11Inheritance` ¬∑ `core12Polymorphism`
 
 ---
 
-## Inheritance ó is-a relationship
+## Inheritance ¬∑ is-a relationship
 
 ```java
 class Animal {
@@ -21,7 +21,7 @@ class Dog extends Animal {
 
 - `extends` for classes (single inheritance only)
 - Child inherits fields and methods
-- `@Override` recommended ó compiler catches typos
+- `@Override` recommended ¬∑ compiler catches typos
 
 ---
 
@@ -42,11 +42,11 @@ class Dog extends Animal {
 
 ---
 
-## Polymorphism ó one interface, many forms
+## Polymorphism ¬∑ one interface, many forms
 
 ```java
-Animal a = new Dog();    // upcasting ó always safe
-a.speak();               // prints "Woof!" ó runtime dispatch
+Animal a = new Dog();    // upcasting ¬∑ always safe
+a.speak();               // prints "Woof!" ¬∑ runtime dispatch
 ```
 
 ?? **Dynamic dispatch:** JVM calls the **actual object's** method, not the reference type.
@@ -65,7 +65,7 @@ a.speak();               // prints "Woof!" ó runtime dispatch
 
 ## When NOT to inherit
 
-?? Don't inherit just to reuse code ó use **composition** (`has-a`).
+?? Don't inherit just to reuse code ¬∑ use **composition** (`has-a`).
 
 Bad: `class Stack extends ArrayList`  
 Good: `class Stack { private Deque<T> data; }`
