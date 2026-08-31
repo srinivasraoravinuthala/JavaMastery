@@ -1,8 +1,8 @@
-﻿# 32 — Standard Libraries
+# 32 � Standard Libraries
 
-**Previous:** [31 REST APIs](31-RestAPIs.md) · **Next:** [33 Testing](33-Testing.md)
+**Previous:** [31 REST APIs](31-RestAPIs.md) � **Next:** [33 Testing](33-Testing.md)
 
-▶️ `pkg13libs/libs1DateTimeApi.java` → `libs8Logging.java`
+?? `pkg13libs/libs1DateTimeApi.java` ? `libs8Logging.java`
 
 ---
 
@@ -10,7 +10,7 @@
 
 | # | File | API |
 |---|------|-----|
-| 1 | `libs1DateTimeApi` | `java.time` — `LocalDate`, `ZonedDateTime`, `Duration` |
+| 1 | `libs1DateTimeApi` | `java.time` � `LocalDate`, `ZonedDateTime`, `Duration` |
 | 2 | `libs2RegexApi` | `Pattern`, `Matcher` |
 | 3 | `libs3BigDecimalDemo` | Money / precise decimals |
 | 4 | `libs4OptionalAdvanced` | Optional patterns |
@@ -21,7 +21,7 @@
 
 ---
 
-## java.time — replace old Date API
+## java.time � replace old Date API
 
 ```java
 LocalDate today = LocalDate.now();
@@ -42,8 +42,11 @@ BigDecimal total = price.multiply(BigDecimal.valueOf(3))
                         .setScale(2, RoundingMode.HALF_UP);
 ```
 
-**Full guide →** [Libraries.md](../04-reference/08-Libraries.md)
+**Full guide ?** [Libraries.md](../04-reference/08-Libraries.md)
 
-**Milestone:** You completed **Applied Java** (chapters 28–32). 🎉
+**Milestone:** You completed **Applied Java** (chapters 28�32). ??
 
-**Next →** [33 Testing](33-Testing.md)
+**Interview drill ?** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+
+
+**Next ?** [33 Testing](33-Testing.md)

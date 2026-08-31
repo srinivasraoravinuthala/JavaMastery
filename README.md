@@ -25,6 +25,17 @@ java pkg1core/core1HelloWorld.java
 
 ---
 
+## Branch strategy
+
+| Branch | Purpose |
+|--------|---------|
+| `main` | Production content — synced by [JavaMastery-UI](https://github.com/srinivasraoravinuthala/JavaMastery-UI) at deploy time |
+| `develop` | Active work — merge to `main` when ready to publish |
+
+Doc changes on `main` can auto-trigger a site rebuild when `ENABLE_UI_DISPATCH` is set on this repo.
+
+---
+
 ## Documentation map
 
 All markdown lives under `docs/`. **This README is the project entry point** — every link you need is below.

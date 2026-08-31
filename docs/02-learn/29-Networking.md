@@ -1,8 +1,8 @@
-﻿# 29 — Networking & HTTP
+# 29 � Networking & HTTP
 
-**Previous:** [28 I/O & NIO](28-IOAndNIO.md) · **Next:** [30 JDBC](30-JDBC.md)
+**Previous:** [28 I/O & NIO](28-IOAndNIO.md) � **Next:** [30 JDBC](30-JDBC.md)
 
-▶️ `pkg10networking/networking1InetAddress.java` → `networking5HttpClient.java`
+?? `pkg10networking/networking1InetAddress.java` ? `networking5HttpClient.java`
 
 ---
 
@@ -33,6 +33,9 @@ System.out.println(response.body());
 
 Async: `client.sendAsync(request, handler).thenApply(...)`
 
-**Full guide →** [Networking.md](../04-reference/05-Networking.md)
+**Full guide ?** [Networking.md](../04-reference/05-Networking.md)
 
-**Next →** [30 JDBC](30-JDBC.md)
+**Interview drill ?** [10 Java 9�21 Features](../03-interview/10-Java9To21Features.md)
+
+
+**Next ?** [30 JDBC](30-JDBC.md)

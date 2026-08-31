@@ -75,3 +75,5 @@ enum Planet {
 💡 **Best singleton in Java:** `enum Instance { INSTANCE; }`
 
 **Next →** [15 Records & Sealed](15-RecordsAndSealed.md)
+**Interview drill ?** [01 Core Java](../03-interview/01-CoreJava.md)
+

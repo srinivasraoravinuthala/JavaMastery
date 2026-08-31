@@ -60,6 +60,6 @@ Use virtual threads for **blocking I/O at scale** (HTTP calls, DB queries).
 
 ---
 
-**Full reference →** [JavaVersions.md](../04-reference/01-JavaVersions.md) · [Java9To21Features.md](../03-interview/Java9To21Features.md)
+**Full reference →** [Java Versions](../04-reference/01-JavaVersions.md) · [10 Java 9–21 Features](../03-interview/10-Java9To21Features.md)
 
 **Next →** [22 Data Structures](22-DataStructures.md)

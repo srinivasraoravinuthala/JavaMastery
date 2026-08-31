@@ -1,8 +1,8 @@
-﻿# 33 — Testing
+# 33 � Testing
 
-**Previous:** [32 Standard Libraries](32-StandardLibraries.md) · **Next:** [34 Modules](34-Modules.md)
+**Previous:** [32 Standard Libraries](32-StandardLibraries.md) � **Next:** [34 Modules](34-Modules.md)
 
-▶️ `mvn test -f pkg14testing/pom.xml`
+?? `mvn test -f pkg14testing/pom.xml`
 
 ---
 
@@ -38,6 +38,9 @@ void findUser_notFound_returnsEmpty() {
 }
 ```
 
-**Full guide →** [Testing.md](../04-reference/09-Testing.md)
+**Full guide ?** [Testing.md](../04-reference/09-Testing.md)
 
-**Next →** [34 Modules](34-Modules.md)
+**Interview drill ?** [14 Effective Java](../03-interview/14-EffectiveJava.md)
+
+
+**Next ?** [34 Modules](34-Modules.md)

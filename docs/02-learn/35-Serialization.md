@@ -1,8 +1,8 @@
-﻿# 35 — Serialization & Data Formats
+# 35 � Serialization & Data Formats
 
-**Previous:** [34 Modules](34-Modules.md) · **Next:** [36 Performance & Build](36-PerformanceAndBuild.md)
+**Previous:** [34 Modules](34-Modules.md) � **Next:** [36 Performance & Build](36-PerformanceAndBuild.md)
 
-▶️ `mvn test -f pkg20serialization/pom.xml`
+?? `mvn test -f pkg20serialization/pom.xml`
 
 ---
 
@@ -15,7 +15,7 @@
 | **YAML** | Yes | Loose | Yes | Config files |
 | **Protobuf** | No | `.proto` required | Yes | gRPC, high perf |
 | **Avro** | No | Schema registry | Yes | Kafka pipelines |
-| **Java serialization** | No | Java-only | No | ⚠️ avoid for external data |
+| **Java serialization** | No | Java-only | No | ?? avoid for external data |
 
 ---
 
@@ -27,8 +27,11 @@ String json = mapper.writeValueAsString(user);
 User back = mapper.readValue(json, User.class);
 ```
 
-⚠️ **Never deserialize untrusted Java native serialization** — remote code execution risk.
+?? **Never deserialize untrusted Java native serialization** � remote code execution risk.
 
-**Full guide →** [Serialization.md](../04-reference/12-Serialization.md)
+**Full guide ?** [Serialization.md](../04-reference/12-Serialization.md)
 
-**Next →** [36 Performance & Build](36-PerformanceAndBuild.md)
+**Interview drill ?** [11 I/O & Serialization](../03-interview/11-IOAndSerialization.md)
+
+
+**Next ?** [36 Performance & Build](36-PerformanceAndBuild.md)

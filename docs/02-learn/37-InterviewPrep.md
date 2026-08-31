@@ -28,6 +28,8 @@ Now consolidate for interviews.
 | **Backend** | SpringBoot, JdbcJpaHibernate, IOAndSerialization |
 | **Staff+** | SystemDesign, Performance |
 
+> **Spring Boot track:** There is no dedicated learn chapter yet — use the interview topic [15 Spring Boot](../03-interview/15-SpringBoot.md) and external Spring docs for the backend track.
+
 ---
 
 ## Daily routine (interview season)

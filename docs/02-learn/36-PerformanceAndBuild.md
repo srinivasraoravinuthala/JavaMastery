@@ -44,6 +44,6 @@ mvn package -f pkg19performance/jmh-demo/pom.xml
 mvn test -f build/maven/simple-app/pom.xml
 ```
 
-**Guides →** [BuildTools.md](../04-reference/13-BuildTools.md) · [Performance.md](../03-interview/Performance.md)
+**Guides →** [Build Tools](../04-reference/13-BuildTools.md) · [19 Performance](../03-interview/19-Performance.md)
 
 **Next →** [37 Interview Prep](37-InterviewPrep.md)

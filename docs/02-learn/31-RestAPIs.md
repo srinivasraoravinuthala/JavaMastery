@@ -1,8 +1,8 @@
-﻿# 31 — REST APIs
+# 31 � REST APIs
 
-**Previous:** [30 JDBC](30-JDBC.md) · **Next:** [32 Standard Libraries](32-StandardLibraries.md)
+**Previous:** [30 JDBC](30-JDBC.md) � **Next:** [32 Standard Libraries](32-StandardLibraries.md)
 
-▶️ `pkg12restapi/restapi1RestConcepts.java` → `restapi5HttpClientConsume.java`
+?? `pkg12restapi/restapi1RestConcepts.java` ? `restapi5HttpClientConsume.java`
 
 ---
 
@@ -25,8 +25,11 @@ This package shows:
 3. JSON handling
 4. Client consumption with `HttpClient`
 
-**Milestone project:** File config → JDBC database → REST endpoint → call with HttpClient.
+**Milestone project:** File config ? JDBC database ? REST endpoint ? call with HttpClient.
 
-**Full guide →** [RestApis.md](../04-reference/07-RestApis.md)
+**Full guide ?** [RestApis.md](../04-reference/07-RestApis.md)
 
-**Next →** [32 Standard Libraries](32-StandardLibraries.md)
+**Interview drill ?** [15 Spring Boot](../03-interview/15-SpringBoot.md)
+
+
+**Next ?** [32 Standard Libraries](32-StandardLibraries.md)

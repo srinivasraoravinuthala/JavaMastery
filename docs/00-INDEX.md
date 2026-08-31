@@ -20,6 +20,17 @@ docs/
 
 ---
 
+## Link conventions
+
+When linking between docs, **always use numbered filenames**:
+
+- Good: `../03-interview/07-Exceptions.md`
+- Bad: `../03-interview/Exceptions.md`
+
+Relative paths resolve from the current file (`../` for sibling folders, `../../` for cross-section).
+
+---
+
 ## Start here (new learners)
 
 | Order | What | Link |
