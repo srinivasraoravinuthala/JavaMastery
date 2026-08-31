@@ -121,6 +121,4 @@ When in doubt, **use parentheses**.
 2. Predict output of `i++ + ++i` before running.
 3. Write a ternary that picks the larger of two ints.
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [04 Control Flow](04-ControlFlow.md)

@@ -88,6 +88,4 @@ Works beautifully with **sealed types** — compiler checks exhaustiveness.
 2. Convert a 5-branch if/else grade system to a switch expression.
 3. Add a `default` case — when is it required?
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [05 Loops](05-Loops.md)

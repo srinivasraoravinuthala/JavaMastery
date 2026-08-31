@@ -28,8 +28,6 @@ Now consolidate for interviews.
 | **Backend** | SpringBoot, JdbcJpaHibernate, IOAndSerialization |
 | **Staff+** | SystemDesign, Performance |
 
-> **Backend track:** There is no dedicated Spring Boot *learn* chapter yet — use [15 Spring Boot](../03-interview/15-SpringBoot.md) interview Q&A after chapter 31 (REST APIs).
-
 ---
 
 ## Daily routine (interview season)
@@ -47,10 +45,10 @@ Now consolidate for interviews.
 
 | Doc | Purpose |
 |-----|---------|
-| [Interview Guide](../06-career/02-InterviewGuide.md) | Stages, STAR, 30/60/90 plan |
-| [Cheatsheet](../05-quick-ref/01-Cheatsheet.md) | Last-minute syntax |
-| [Java Notes](../05-quick-ref/02-JavaNotes.md) | One-page revision |
-| [Career Roadmap](../06-career/01-Roadmap.md) | Career stage checklist |
+| [Interview Guide](../../06-career/02-InterviewGuide.md) | Stages, STAR, 30/60/90 plan |
+| [Cheatsheet](../../05-quick-ref/01-Cheatsheet.md) | Last-minute syntax |
+| [Java Notes](../../05-quick-ref/02-JavaNotes.md) | One-page revision |
+| [Career Roadmap](../../06-career/01-Roadmap.md) | Career stage checklist |
 | [README.md](../../README.md) | Full documentation index |
 
 ---

@@ -115,6 +115,6 @@ System.out.println(max + 1);     // overflows to Integer.MIN_VALUE
 2. Declare one variable of each primitive type and print them.
 3. Try `var` for a `List<String>`.
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md#q1) (questions 1–7)
+**Interview drill →** [03-interview/01-CoreJava.md](../03-interview/01-CoreJava.md) questions 1–7
 
 **Next →** [03 Operators & Casting](03-OperatorsAndCasting.md)

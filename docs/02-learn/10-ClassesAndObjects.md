@@ -77,6 +77,4 @@ class Person {
 2. Create a `Student` class with `name`, `grade`, and `printReport()` method.
 3. Create two students and call methods on each.
 
-**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
-
 **Next →** [11 Constructors & Encapsulation](11-ConstructorsAndEncapsulation.md)

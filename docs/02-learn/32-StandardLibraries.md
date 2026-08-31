@@ -46,6 +46,4 @@ BigDecimal total = price.multiply(BigDecimal.valueOf(3))
 
 **Milestone:** You completed **Applied Java** (chapters 28–32). 🎉
 
-**Interview drill →** [14 Effective Java](../03-interview/14-EffectiveJava.md)
-
 **Next →** [33 Testing](33-Testing.md)

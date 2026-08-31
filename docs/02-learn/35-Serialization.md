@@ -31,6 +31,4 @@ User back = mapper.readValue(json, User.class);
 
 **Full guide →** [Serialization.md](../04-reference/12-Serialization.md)
 
-**Interview drill →** [11 I/O & Serialization](../03-interview/11-IOAndSerialization.md)
-
 **Next →** [36 Performance & Build](36-PerformanceAndBuild.md)

@@ -53,6 +53,4 @@ interface Calculator {
 
 `@FunctionalInterface` is optional but catches mistakes.
 
-**Interview drill →** [06 Streams](../03-interview/06-Streams.md)
-
 **Next →** [20 Streams & Optional](20-StreamsAndOptional.md)

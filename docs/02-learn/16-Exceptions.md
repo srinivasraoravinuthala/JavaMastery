@@ -79,6 +79,6 @@ Extend `Exception` for checked, `RuntimeException` for unchecked.
 | Use try-with-resources | Forget to close files |
 | Fail fast with clear messages | Use exceptions for normal flow |
 
-**Interview drill →** [07 Exceptions](../03-interview/07-Exceptions.md)
+**Interview drill →** [Exceptions.md](../03-interview/Exceptions.md)
 
 **Next →** [17 Collections](17-Collections.md)

@@ -20,17 +20,6 @@ docs/
 
 ---
 
-## Link conventions (for contributors)
-
-When adding or editing internal links in markdown:
-
-- Use **numbered filenames** — e.g. `07-Exceptions.md`, not `Exceptions.md`
-- Cross-section links from `02-learn/` use one `../` — e.g. `../03-interview/01-CoreJava.md`
-- Same-section links can be relative — e.g. `03-OperatorsAndCasting.md` from another learn chapter
-- Repo code links (`pkg*`, `README.md`) point outside `docs/` — the website rewrites those to GitHub URLs
-
----
-
 ## Start here (new learners)
 
 | Order | What | Link |
