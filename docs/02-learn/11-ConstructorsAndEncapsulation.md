@@ -82,4 +82,6 @@ Make fields `final`, no setters, defensive copies for mutable components.
 record Point(int x, int y) {}   // compiler-generated immutable class
 ```
 
+**Interview drill →** [01 Core Java](../03-interview/01-CoreJava.md)
+
 **Next →** [12 Inheritance & Polymorphism](12-InheritanceAndPolymorphism.md)

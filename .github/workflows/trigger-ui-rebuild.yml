@@ -1,0 +1,24 @@
+name: Trigger UI Rebuild
+
+# When docs change on main, notify JavaMastery-UI to rebuild and deploy.
+# Required secret: UI_REPO_DISPATCH_TOKEN (PAT with repo scope on JavaMastery-UI)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/**'
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    # Skip when dispatch token is not configured (use repo variable ENABLE_UI_DISPATCH=true when ready)
+    if: vars.ENABLE_UI_DISPATCH == 'true'
+    steps:
+      - name: Trigger JavaMastery-UI rebuild
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.UI_REPO_DISPATCH_TOKEN }}
+          repository: srinivasraoravinuthala/JavaMastery-UI
+          event-type: content-updated
+          client-payload: '{"ref": "${{ github.sha }}", "repo": "JavaMastery"}'

@@ -67,6 +67,6 @@ At runtime, `List<String>` becomes raw `List` — generic type info is erased.
 
 ⚠️ Can't do `new T[]`, can't `instanceof List<String>`, can't overload on generics only.
 
-**Interview drill →** [Generics.md](../03-interview/Generics.md)
+**Interview drill →** [08 Generics](../03-interview/08-Generics.md)
 
 **Next →** [19 Lambdas & Functional](19-LambdasAndFunctional.md)
