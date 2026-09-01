@@ -10,8 +10,9 @@
 
 ---
 
-## Start here (3 steps)
+## Start here (4 steps)
 
+0. **Set up your machine** — [Environment Setup](docs/01-orientation/03-EnvironmentSetup.md) (JDK, clone project, IDE, first run)  
 1. **Read** [What is Java?](docs/01-orientation/01-TutorialAndHistory.md) — JVM, WORA, history  
 2. **Follow** [Learn chapter 01](docs/02-learn/01-GettingStarted.md) — tutorials basics → advanced (37 chapters)  
 3. **Run** your first programs:
@@ -57,6 +58,7 @@ docs/
 
 | File | Purpose |
 |------|---------|
+| [03-EnvironmentSetup.md](docs/01-orientation/03-EnvironmentSetup.md) | **Start here** — JDK, clone/ZIP, IntelliJ/Eclipse, Maven intro, first run |
 | [01-TutorialAndHistory.md](docs/01-orientation/01-TutorialAndHistory.md) | Java definition, JDK/JVM/JRE, timeline |
 | [02-LearningPath.md](docs/01-orientation/02-LearningPath.md) | Package run order: `pkg0` → `pkg20` |
 

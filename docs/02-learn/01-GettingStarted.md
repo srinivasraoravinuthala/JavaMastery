@@ -2,6 +2,8 @@
 
 **Previous:** [00 Index](00-INDEX.md) · **Next:** [02 Variables & Types](02-VariablesAndTypes.md)
 
+> **New here?** If you have not installed the JDK, downloaded the project, or set up an IDE yet, complete **[Environment Setup](../01-orientation/03-EnvironmentSetup.md)** first — everything you need is on this site.
+
 ---
 
 ## What you need
@@ -35,7 +37,7 @@ public class Hello {
 }
 ```
 
-▶️ **Run the project version:**
+▶️ `java pkg0intro/intro1AboutJava.java` · `java pkg1core/core1HelloWorld.java`
 
 ```bash
 java pkg0intro/intro1AboutJava.java

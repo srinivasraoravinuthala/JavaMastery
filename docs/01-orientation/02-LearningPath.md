@@ -4,13 +4,16 @@
 
 Follow the numbers. Run each file with `java <package>/<class>.java`.
 
+> **Prerequisite:** Complete [03 Environment Setup](03-EnvironmentSetup.md) (JDK, project on disk, IDE optional) before running code.
+
 ---
 
 ## Step 0 — Orientation
 
-1. [01 Tutorial & History](01-TutorialAndHistory.md)
-2. [02-learn/01 Getting Started](../02-learn/01-GettingStarted.md)
-3. `pkg0intro/intro1AboutJava` → `intro2HistoryOfJava` → `intro3Objectives`
+1. [03 Environment Setup](03-EnvironmentSetup.md) — install JDK, download project, IDE, first run
+2. [01 Tutorial & History](01-TutorialAndHistory.md)
+3. [02-learn/01 Getting Started](../02-learn/01-GettingStarted.md)
+4. `pkg0intro/intro1AboutJava` → `intro2HistoryOfJava` → `intro3Objectives`
 
 ## Level 1 — Beginner (`pkg1core` 1–14, 24–25)
 

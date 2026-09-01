@@ -4,6 +4,12 @@
 
 ---
 
+## New student?
+
+**Start here → [01-orientation/03-EnvironmentSetup.md](01-orientation/03-EnvironmentSetup.md)** — install JDK 21, download the project, set up IntelliJ or Eclipse, and run your first program. Everything you need is on this site.
+
+---
+
 ## Documentation map
 
 ```
