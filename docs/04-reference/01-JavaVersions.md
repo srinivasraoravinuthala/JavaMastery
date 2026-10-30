@@ -87,7 +87,39 @@ Each section lists **features**, **why introduced**, and **interview questions**
 - What are sequenced collections? → Interfaces (`SequencedCollection/Set/Map`) adding `getFirst/getLast/reversed`.
 - When NOT to use virtual threads? → CPU-bound work (no benefit), or with thread-local-heavy / pinned (`synchronized`) blocking sections.
 
+## Java 22 (2024)
+**Features:** **Unnamed variables & patterns `_` (JEP 456, final)**, **Foreign Function & Memory API (JEP 454, final)**, unnamed classes & instance main methods (preview), statements before `super()` (preview), string templates dropped.
+**Why:** `_` removes need for dummy variable names; FFM API is the production-ready replacement for JNI without `Unsafe`.
+**Interview Qs:**
+- What does `_` do in Java 22? → Acts as unnamed variable — valid in patterns, catch, enhanced-for, and lambdas; compiler ensures it is never read.
+- FFM API vs JNI? → FFM is safe, pure-Java, no native compilation step, and supports off-heap memory via `MemorySegment`.
+
+## Java 23 (2024)
+**Features:** Markdown documentation comments (JEP 467), primitive types in patterns & `instanceof` (JEP 455, preview), module imports (JEP 476, preview), flexible constructor bodies (JEP 482, preview), structured concurrency & scoped values (previews continue).
+**Why:** Markdown Javadoc lowers friction for doc writers; primitive patterns unify switch over all types.
+**Interview Qs:**
+- What is Markdown Javadoc? → Use Markdown inside `///` doc-comment lines instead of HTML tags.
+- Primitive patterns preview? → `switch (x) { case int i when i > 0 -> ... }` — match primitive types in switch/instanceof.
+
+## Java 24 (2025)
+**Features:** **Stream Gatherers (JEP 485, final)**, **Class-File API (JEP 484, final)**, **Ahead-of-Time class loading & linking (JEP 483)**, quantum-resistant crypto algorithms (JEP 496/497), compact object headers (experimental).
+**Why:** Gatherers let you write custom stateful/stateless intermediate Stream operations; Class-File API replaces ASM for bytecode manipulation.
+**Interview Qs:**
+- What are Stream Gatherers? → The `gather(Gatherer)` intermediate operation; implement via `Gatherers` factory or custom `Gatherer` interface with `initializer`, `integrator`, `combiner`, `finisher`.
+- `windowSliding` vs `windowFixed`? → Sliding overlaps by one element; fixed partitions without overlap.
+
+## Java 25 (2025, LTS)
+**Features:** **Scoped Values (JEP 506, final)**, **Flexible Constructor Bodies (JEP 492, final)**, **Module Import Declarations (JEP 494, final)**, primitive patterns (JEP 488, final), structured concurrency (JEP 505, final), AOT compilation improvements.
+**Why:** Fourth modern LTS. Scoped Values replace ThreadLocal for virtual-thread-scale call-scoped data; flexible constructors reduce boilerplate in inheritance.
+**Demo files:** `pkg2versions/versions9–11`
+**Interview Qs:**
+- Scoped Values vs ThreadLocal? → Scoped Values are immutable, do not inherit across unrelated threads, and are GC'd when the scope exits — making them safe and cheap for millions of virtual threads.
+- `import module java.sql;`? → Module Import Declarations let you import every exported package of a module with a single statement.
+- Flexible Constructor Bodies? → You can write statements (validation, local vars) before `super()` or `this()` calls in a constructor, removing the need for static factory workarounds.
+
 ---
 
 ## LTS Summary
-LTS releases: **8, 11, 17, 21** (and 25). Most enterprises target these. The 6-month release cadence (since Java 9) delivers smaller, incremental features with previews before finalization.
+LTS releases: **8, 11, 17, 21, 25**. Most enterprises target these. The 6-month release cadence (since Java 9) delivers smaller, incremental features with previews before finalization.
+
+**See also →** [Java 22–25 full changelog](15-Java22to25.md)

@@ -1,4 +1,4 @@
-# Java 9–21 Features — Interview Questions (95+)
+# Java 9–25 Features — Interview Questions (110+)
 
 See [`pkg2versions`](../../pkg2versions) and `core16`–`core17`, `core24`–`core28`.
 
@@ -81,6 +81,43 @@ See [`pkg2versions`](../../pkg2versions) and `core16`–`core17`, `core24`–`co
 - **Detailed:** String templates, structured concurrency were previews. Don't use preview in production without acceptance of churn.
 - **Example:** `java --enable-preview MyApp.java`
 
+### 16. Java 22 — unnamed variables `_`?
+- **Short:** Use `_` for variables you deliberately don't read — patterns, catch, enhanced-for, lambdas.
+- **Detailed:** JEP 456 finalized in Java 22. Compiler enforces no read; you can have multiple `_` in same scope. Replaces dummy names like `ignored` or `unused`.
+- **Example:** `for (int _ : list) count++;` / `catch (IOException _) { }` / `(_, v) -> process(v)`
+
+### 17. Java 22 — Foreign Function & Memory API (FFM)?
+- **Short:** Call native code and manage off-heap memory without JNI or `Unsafe`.
+- **Detailed:** JEP 454 final in Java 22. `Linker.nativeLinker()` to call C functions; `Arena` for memory lifecycle; `MemorySegment` for off-heap buffers. Eliminates need to write C JNI glue code.
+- **Example:** `pkg2versions/versions7Java22Unnamed.java` (unnamed `_` demo); full FFM in `44-ForeignMemoryAPI.md`.
+
+### 18. Java 24 — Stream Gatherers?
+- **Short:** Custom intermediate Stream operations via the `gather(Gatherer)` method (JEP 485, final).
+- **Detailed:** `Gatherer<T,A,R>` has four optional parts: `initializer` (mutable state), `integrator` (process element), `combiner` (parallel merge), `finisher` (emit remaining). Built-in: `Gatherers.windowFixed`, `windowSliding`, `fold`, `scan`, `mapConcurrent`.
+- **Example:**
+```java
+List<List<Integer>> windows = Stream.iterate(1, i -> i+1).limit(6)
+    .gather(Gatherers.windowSliding(3)).toList();
+// → [[1,2,3],[2,3,4],[3,4,5],[4,5,6]]
+```
+- `pkg2versions/versions8Java24Gatherers.java`
+
+### 19. Java 25 — Scoped Values?
+- **Short:** Immutable, call-scope-bound data sharing — the virtual-thread-safe replacement for `ThreadLocal` (JEP 506, final in Java 25).
+- **Detailed:** `ScopedValue.where(KEY, value).run(lambda)` — the value is visible everywhere in the lambda's call tree but only there. Immutable: no set after bind. GC-able when scope exits. Works across structured concurrency child tasks.
+- **Example:** `versions9Java25ScopedValues.java`
+- **vs ThreadLocal?** → ThreadLocal is mutable, inheritable, leaks if not removed; ScopedValue is immutable, auto-cleaned, safe for millions of virtual threads.
+
+### 20. Java 25 — Flexible Constructor Bodies?
+- **Short:** Statements allowed before `super()` / `this()` calls in constructors (JEP 492, final in Java 25).
+- **Detailed:** Previously all statements had to follow the explicit constructor invocation. Now you can declare local variables and run logic (but not access `this`) before `super()`. Eliminates static factory workarounds.
+- **Example:** `versions10Java25FlexibleConstructors.java`
+
+### 21. Java 25 — Module Import Declarations?
+- **Short:** `import module java.sql;` imports all exported packages of a module at once (JEP 494, final in Java 25).
+- **Detailed:** Reduces boilerplate for modules with many packages (e.g. `java.base`). Not the same as `requires` — only for source imports, not runtime dependencies.
+- **Example:** `versions11Java25ModuleImport.java`
+
 ---
 
 ## Rapid-Fire (Q → A)
@@ -94,7 +131,11 @@ See [`pkg2versions`](../../pkg2versions) and `core16`–`core17`, `core24`–`co
 7. Java 16 headline? → Records, instanceof patterns.
 8. Java 17 LTS headline? → Sealed classes, pattern switch preview.
 9. Java 21 LTS headline? → Virtual threads, record patterns, sequenced collections.
-10. LTS releases? → 11, 17, 21 (also 8 before cadence change).
+9a. Java 22 headline? → Unnamed variables `_` (final), FFM API (final).
+9b. Java 23 headline? → Markdown Javadoc, primitive patterns preview.
+9c. Java 24 headline? → Stream Gatherers (final), Class-File API (final).
+9d. Java 25 LTS headline? → Scoped Values, Flexible Constructor Bodies, Module Imports.
+10. LTS releases? → 8, 11, 17, 21, 25.
 11. module-info exports? → Public API of module.
 12. requires transitive? → Implicit dependency for consumers.
 13. opens package? → Deep reflection for framework.

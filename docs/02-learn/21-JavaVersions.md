@@ -1,8 +1,8 @@
-﻿# 21 — Java Version Features (5 → 21)
+﻿# 21 — Java Version Features (5 → 25)
 
 **Previous:** [20 Streams & Optional](20-StreamsAndOptional.md) · **Next:** [22 Data Structures](22-DataStructures.md)
 
-▶️ `pkg2versions/versions1Java5Features.java` → `versions6Java21Features.java`
+▶️ `pkg2versions/versions1Java5Features.java` · `pkg2versions/versions2Java7Features.java` · `pkg2versions/versions3Java8Features.java` · `pkg2versions/versions4Java9To11Features.java` · `pkg2versions/versions5Java17Features.java` · `pkg2versions/versions6Java21Features.java` · `pkg2versions/versions7Java22Unnamed.java` · `pkg2versions/versions8Java24Gatherers.java` · `pkg2versions/versions9Java25ScopedValues.java` · `pkg2versions/versions10Java25FlexibleConstructors.java` · `pkg2versions/versions11Java25ModuleImport.java` · `pkg2versions/versions12ForeignMemoryAPI.java`
 
 ---
 
@@ -21,6 +21,10 @@
 | **16** | 2021 | Records, `instanceof` patterns |
 | **17** | 2021 LTS | Sealed classes |
 | **21** | 2023 LTS | Virtual threads, record patterns, sequenced collections |
+| **22** | 2024 | Unnamed variables `_` (final), Foreign Function & Memory API (final) |
+| **23** | 2024 | Markdown Javadoc, primitive patterns in switch (preview) |
+| **24** | 2025 | Stream Gatherers (final), Class-File API (final) |
+| **25** | 2025 LTS | Scoped Values (final), Flexible Constructor Bodies, Module Import Declarations |
 
 ---
 
@@ -33,6 +37,11 @@ java pkg2versions/versions3Java8Features.java
 java pkg2versions/versions4Java9To11Features.java
 java pkg2versions/versions5Java17Features.java
 java pkg2versions/versions6Java21Features.java
+java pkg2versions/versions7Java22Unnamed.java
+java pkg2versions/versions8Java24Gatherers.java
+java pkg2versions/versions9Java25ScopedValues.java
+java pkg2versions/versions10Java25FlexibleConstructors.java
+java pkg2versions/versions11Java25ModuleImport.java
 ```
 
 ---
@@ -58,8 +67,40 @@ Thread.startVirtualThread(() -> fetchData());
 
 Use virtual threads for **blocking I/O at scale** (HTTP calls, DB queries).
 
+### Java 22 — unnamed variables & native interop
+```java
+for (int _ : list) { count++; }          // unnamed variable (JEP 456)
+try { risky(); } catch (Exception _) {}  // ignore exception variable
+```
+Foreign Function & Memory API replaces JNI for calling native code without `unsafe`.
+
+### Java 23–24 — Gatherers & Class-File API
+```java
+// Stream Gatherers (JEP 485) — custom intermediate operations
+Stream.of(1,2,3,4).gather(Gatherers.windowSliding(2)).toList();
+// → [[1,2],[2,3],[3,4]]
+```
+
+### Java 25 LTS — Scoped Values & Flexible Constructors
+```java
+// Scoped Values (JEP 506) — immutable, thread-local-like per-call data
+static final ScopedValue<String> USER = ScopedValue.newInstance();
+ScopedValue.where(USER, "ada").run(() -> process(USER.get()));
+
+// Flexible Constructor Bodies (JEP 492) — statements before super()
+class Sub extends Base {
+    Sub(int x) {
+        var validated = validate(x);   // ← allowed before super()
+        super(validated);
+    }
+}
+
+// Module Import Declarations (JEP 494)
+import module java.sql;   // imports all exported packages of a module
+```
+
 ---
 
-**Full reference →** [Java Versions](../04-reference/01-JavaVersions.md) · [10 Java 9–21 Features](../03-interview/10-Java9To21Features.md)
+**Full reference →** [Java Versions](../04-reference/01-JavaVersions.md) · [Java 22–25 Reference](../04-reference/15-Java22to25.md) · [Interview: Java 9–25 Features](../03-interview/10-Java9To25Features.md)
 
 **Next →** [22 Data Structures](22-DataStructures.md)
